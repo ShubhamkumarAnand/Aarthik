@@ -6,10 +6,12 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Aarthik</title>
-        <meta name="description" content="Aarthik Bank : Modern Bank Account" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Modern Bank Website" />
+        <link rel="icon" href="/aarthik.svg" />
       </Head>
-      <main>Hello Aarthik Bank</main>
+      <main>
+        <h1>Welcome to the Aarthik Bank</h1>
+      </main>
     </>
   );
 };

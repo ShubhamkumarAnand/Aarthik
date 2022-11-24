@@ -11,7 +11,7 @@ const inter = Inter({
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <main className={`${inter.variable} font-sans`}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </main>
   );
 };
